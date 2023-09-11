@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Epilogue', sans-serif;
+}
+.inactive{
+    display: none;
+}
+main figure{
+    width: 100%;
+    height: 400px;
+    background-image:url(/img/image-hero-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    height: 100px;
+    width: 100%;
+}
+header .logo{
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+header .bur_menu{
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+.mob_menu{
+    position: absolute;
+    width: 310px;
+    height: 1171px;
+    top: 0;
+    right:0;
+    background-color: white;
+    z-index: 1;
+}
+.cross img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 250px;
+    top: 30px;
+}
+.mob_menu ul{
+    position: relative;
+    top: 70px;
+}
+.mob_menu li{
+    display: flex;
+    top: 300px;
+    font-size: 2.5rem;
+    list-style: none;
+    padding: 10px;
+    margin: 40px;
+}
+header a{
+    position: relative;
+    top: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F9F9F9;
+    color: #686868;
+    border: 3px #686868 solid;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+  font-size: 4.5rem;
+  padding: 5px;
+}
+p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+a{
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    background-color:#141414;
+    text-decoration: none;
+}
+.one .pic img{
+    margin: 20px 10px 10px 10px;
+}
