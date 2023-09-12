@@ -10,9 +10,9 @@ html{
 .inactive{
     display: none;
 }
-main figure{
+.photo{
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-image:url(/img/image-hero-mobile.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -47,11 +47,25 @@ header .bur_menu{
     left: 250px;
     top: 30px;
 }
-.mob_menu ul{
+ul{
     position: relative;
     top: 70px;
 }
-.mob_menu li{
+.list ,.list_two{
+    position: relative;
+    right: 140px;
+}
+.list img{
+    position: relative;
+    left: -20px;
+}
+ul img{
+    position: relative;
+    left: 30px;
+    width: 18px;
+    height: 12px;
+}
+ li{
     display: flex;
     top: 300px;
     font-size: 2.5rem;
@@ -66,8 +80,11 @@ header a{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #F9F9F9;
+    background-color: #ffffff;
+    border: 3px #ffffff solid;
     color: #686868;
+}
+header a:hover{
     border: 3px #686868 solid;
 }
 .one{
