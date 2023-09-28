@@ -1,0 +1,69 @@
+@media(min-width: 650px){
+    .inactive{
+        display: none;
+    }
+    .bur_menu{
+        display: none;
+    }
+    .mob_menu{
+        display: none;
+    }
+    main {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        place-content: center;
+        left: 150px;
+        
+        }
+        
+    .one { 
+        grid-area: 1 / 1 / 6 / 4;
+        display: flex;
+        text-align: start;
+        justify-content: start;
+        margin: 0;
+        padding: 30px;
+        width: 550px;
+        
+    }
+    h1{
+        font-size: 7.1rem;
+    }
+    p{
+        margin: 20px 0 0 0;
+    }
+    a{
+        margin: 40px 0 0 0;
+        display: flex;
+        width: 200px;
+        border-radius: 20px;
+        padding: 20px 5px;
+        font-size: 2.0rem;
+        font-weight: 500;
+        color: white;
+        background-color: #141414;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .pic{
+        margin: 90px 0 0 0;
+    }
+    .photo { 
+        grid-area: 1 / 4 / 6 / 7;
+        background-image: url(/img/image-hero-desktop.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 400px;
+        margin: 0;
+    }
+    main div .photo{
+        height: 500px;
+    }
+    
+}
