@@ -31,9 +31,6 @@ header .bur_menu{
     top: 30px;
     right: 25px;
 }
-.desk_menu{
-    display: none;
-}
 .mob_menu{
     position: absolute;
     width: 310px;

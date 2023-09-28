@@ -1,34 +1,83 @@
 @media(min-width: 650px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
     .inactive{
         display: none;
     }
     .bur_menu{
         display: none;
     }
-    .mob_menu{
+    .cross img{
         display: none;
     }
-    main {
+    .mob_menu{
+        display: inline-flex;
         position: relative;
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        place-content: center;
-        left: 150px;
+        align-content: center;
+        justify-content: space-between;
+        height: 0;
+    } 
+    ul{
+        display: inline-flex;
+        position: relative;
+        height: 0;
+        top: -15px;
+        left: 90px;
+    }
+    li{
+        font-size: 1.3rem;
+        margin: 30px;
+        width: 100px;
+    }
+    header a{
+        position: relative;
+        top: 10px;
+        left: 300px;
+        margin: 0 10px;
+        background: none;
+        border: none;
+        height: 0;
+    } 
+    header a:hover{
+        border: 1px #686868 solid;
         
+    }
+    .list{
+        position: absolute;
+        top: 80px;
+        flex-direction: column;
+        background-color: #141414;
+    }
+    .list_two{
+        position: relative;
+        flex-direction: column;
+        top: 30px;
+        left: -20px;
+        margin: 0;
+    }
+    .list li{
+        margin: 10px;
+    }
+    .list_two li{
+        margin: 10px;
+        left: 40px;
+    }
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        position: absolute;
+        right: 200px;
         }
         
     .one { 
-        grid-area: 1 / 1 / 6 / 4;
-        display: flex;
         text-align: start;
         justify-content: start;
         margin: 0;
         padding: 30px;
         width: 550px;
-        
     }
     h1{
         font-size: 7.1rem;
@@ -53,12 +102,11 @@
         margin: 90px 0 0 0;
     }
     .photo { 
-        grid-area: 1 / 4 / 6 / 7;
+        
         background-image: url(/img/image-hero-desktop.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        height: 400px;
         width: 400px;
         margin: 0;
     }
